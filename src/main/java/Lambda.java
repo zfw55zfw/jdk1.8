@@ -1,3 +1,5 @@
+import java.io.Serializable;
+
 /**
  * Lmabda表达式的语法总结： () -> ();
 
@@ -12,7 +14,8 @@
  * @create 2019-03-26 上午10:48
  * @desc lambda表达式
  **/
-public class Lambda {
+public class Lambda implements Serializable {
+
     public static void main(String[] args) {
         User user1 = new User();
         int i=111;
