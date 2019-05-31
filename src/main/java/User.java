@@ -1,9 +1,11 @@
+import java.io.Serializable;
+
 /**
  * @author zhengfawei
  * @create 2019-03-26 上午10:49
  * @desc 测试对象
  **/
-public class User  {
+public class User implements Serializable {
     private int id;
     private String name;
     private int age;
