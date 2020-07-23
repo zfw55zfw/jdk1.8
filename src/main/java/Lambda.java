@@ -17,11 +17,19 @@ import java.io.Serializable;
 public class Lambda implements Serializable {
 
     public static void main(String[] args) {
-        User user1 = new User();
-        int i=111;
-        setUser(user1,i);
-        System.out.println(user1);
-        System.out.println(i);
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j <30 ; j++) {
+                System.out.println(i+","+j);
+                if(j==3){
+                    break;
+                }
+            }
+        }
+//        User user1 = new User();
+//        int i=111;
+//        setUser(user1,i);
+//        System.out.println(user1);
+//        System.out.println(i);
 //        User user2 = new User();
 //        User user3 = new User();
 //        user1.setName("aa");
